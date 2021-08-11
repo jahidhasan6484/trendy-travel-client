@@ -11,7 +11,7 @@
   font-family: "Pacifico", cursive;
 }
 
-.navbar-subtitle {
+.navbar_subtitle {
   text-transform: uppercase;
   font-size: 0.5rem;
   font-family: "Montserrat", sans-serif;
@@ -30,9 +30,10 @@
   text-decoration: none;
 }
 
-.socials > img {
+.social_media {
   margin-left: 1.25rem;
   width: 1.5rem;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 992px) {
@@ -40,10 +41,46 @@
     background-color: #fff;
   }
 
-  .socials > img {
+  .navbar-nav > a {
+    background-color: #fcfcfc;
+    padding-left: 1rem;
+    margin-top: 0.25rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+  }
+
+  .navbar-nav > a:hover {
+    background-color: #fff;
+    padding-left: 2rem;
+  }
+
+  .social_media {
     margin-right: 1.25rem;
     margin-left: 0rem;
     width: 1rem;
     padding-top: 2rem;
+    padding-bottom: 2rem;
   }
+}
+
+@media screen and (max-width: 412px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .navbar_subtitle {
+    display: none;
+  }
+
+  .navbar-nav > a {
+    font-size: 0.6rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .navbar-nav > a:hover {
+    background-color: #fff;
+    padding-left: 2rem;
+    letter-spacing: 0.2rem;
+  }
+  
 }

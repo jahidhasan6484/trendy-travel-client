@@ -13,7 +13,7 @@ const Header = () => {
             <div className="container">
                 <div className="logo">
                     <p className="navbar-brand" href="#">TrendyTravel</p>
-                    <p className="text-center navbar-subtitle">never ending footsteps</p>
+                    <p className="text-center navbar_subtitle">never ending footsteps</p>
                 </div>
                 <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <img src={list} alt="List" />
@@ -28,10 +28,10 @@ const Header = () => {
                         <Link to="/elements">elements</Link>
                     </ul>
                     <div className="socials d-flex ms-auto">
-                        <img src={instagram} alt="Instagram" />
-                        <img src={twitter} alt="Twitter" />
-                        <img src={facebook} alt="Facebook" />
-                        <img src={youtube} alt="YouTube" />
+                        <Link to="/instagram"><img className="social_media" src={instagram} alt="Instagram" /></Link>
+                        <Link to="/twitter"><img className="social_media" src={twitter} alt="Twitter" /></Link>
+                        <Link to="/facebook"><img className="social_media" src={facebook} alt="Facebook" /></Link>
+                        <Link to="/youtube"><img className="social_media" src={youtube} alt="YouTube" /></Link>
                     </div>
                 </div>
             </div>

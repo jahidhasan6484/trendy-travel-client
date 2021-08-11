@@ -3,9 +3,6 @@ import './Slider.css';
 import Fade from 'react-reveal/Fade';
 import cox from '../../img/slider/cox.jpg';
 import eifel from '../../img/slider/eifel.jpg';
-import man from '../../img/slider/manhattan.jpg';
-import marina1 from '../../img/slider/marina1.jpg';
-import marina2 from '../../img/slider/marina2.jpg';
 import marina3 from '../../img/slider/marina3.jpg';
 import opera from '../../img/slider/opera.jpg';
 import saint from '../../img/slider/saint.jpg';
@@ -29,7 +26,7 @@ const Slider = () => {
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="8000">
                     <img src={cox} class="d-block w-100" alt="..." />
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption">
                         <Fade bottom>
                             <h1>bangladesh</h1>
                             <h5>cox's bazar, chattogram</h5>
@@ -38,7 +35,7 @@ const Slider = () => {
                 </div>
                 <div class="carousel-item" data-bs-interval="8000">
                     <img src={eifel} class="d-block w-100 " alt="..." />
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption">
                         <Fade bottom>
                             <h1>france</h1>
                             <h5>eiffel tower, paris</h5>
@@ -47,7 +44,7 @@ const Slider = () => {
                 </div>
                 <div class="carousel-item" data-bs-interval="8000">
                     <img src={big} class="d-block w-100 " alt="..." />
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption">
                         <Fade bottom>
                             <h1>united kingdom</h1>
                             <h5>big ben, london</h5>
@@ -56,7 +53,7 @@ const Slider = () => {
                 </div>
                 <div class="carousel-item" data-bs-interval="8000">
                     <img src={burj} class="d-block w-100 " alt="..." />
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption">
                         <Fade bottom>
                             <h1>united arab emirates</h1>
                             <h5>burj khalifa, dubai</h5>
@@ -65,7 +62,7 @@ const Slider = () => {
                 </div>
                 <div class="carousel-item" data-bs-interval="8000">
                     <img src={marina3} class="d-block w-100 " alt="..." />
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption">
                         <Fade bottom>
                             <h1>singapore</h1>
                             <h5>marina bay</h5>
@@ -74,7 +71,7 @@ const Slider = () => {
                 </div>
                 <div class="carousel-item" data-bs-interval="8000">
                     <img src={opera} class="d-block w-100 " alt="..." />
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption">
                         <Fade bottom>
                             <h1>australia</h1>
                             <h5>opera house, sydney</h5>
@@ -83,7 +80,7 @@ const Slider = () => {
                 </div>
                 <div class="carousel-item" data-bs-interval="8000">
                     <img src={saint} class="d-block w-100 " alt="..." />
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption">
                         <Fade bottom>
                             <h1>bangladesh</h1>
                             <h5>saint martin, chattogram</h5>
@@ -92,7 +89,7 @@ const Slider = () => {
                 </div>
                 <div class="carousel-item">
                     <img src={taj} class="d-block w-100 " alt="..." />
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption">
                         <Fade bottom>
                             <h1>india</h1>
                             <h5>taj mahal, agra</h5>
