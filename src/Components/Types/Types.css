@@ -1,0 +1,30 @@
+.card-body {
+  text-align: center;
+}
+
+.card-body {
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.card-body:hover .type_images {
+  transform: translate(0, -10px);
+}
+
+.card-body h5 {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.25rem;
+}
+
+.card-body p {
+  font-size: 0.6rem;
+  font-weight: 400;
+}
+
+.type_images {
+  width: 4rem;
+  transition: 0.3s;
+}

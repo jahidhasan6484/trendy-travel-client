@@ -34,9 +34,14 @@
   margin-left: 1.25rem;
   width: 1.5rem;
   cursor: pointer;
+  transition: 0.3s;
 }
 
-@media screen and (max-width: 992px) {
+.social_media:hover {
+  transform: translate(0, -5px);
+}
+
+@media screen and (max-width: 769px) {
   .navbar {
     background-color: #fff;
   }

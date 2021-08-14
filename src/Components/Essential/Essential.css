@@ -1,0 +1,30 @@
+.col-lg-2 {
+  text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+    .brown .section_padding .container .row .col-lg-2 {
+        width: 20%;
+    }
+}
+
+.essential_image {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.essential_image:hover {
+  transform: translate(0, -10px);
+}
+
+@media screen and (max-width: 768px) {
+    .brown .section_padding .container .row .col-lg-2 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .brown .section_padding .container .row .col-lg-2 {
+        width: 100%;
+    }
+}
