@@ -1,0 +1,157 @@
+.footer_title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #a09f9f;
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+  letter-spacing: 0.25rem;
+}
+
+.footer_title::before {
+  content: "";
+  display: block;
+  width: 38%;
+  height: 1px;
+  background: #e7e6e6;
+  position: absolute;
+  left: 0;
+  top: 70%;
+}
+
+.footer_title::after {
+  content: "";
+  display: block;
+  width: 38%;
+  height: 1px;
+  background: #e7e6e6;
+  position: absolute;
+  right: 0;
+  top: 70%;
+}
+
+@media screen and (max-width: 768px) {
+  .footer_title::before {
+    width: 30%;
+    height: 1px;
+  }
+
+  .footer_title::after {
+    width: 30%;
+    height: 1px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .footer_title::before {
+    width: 25%;
+    height: 1px;
+  }
+
+  .footer_title::after {
+    width: 25%;
+    height: 1px;
+  }
+}
+
+.footer_content {
+  margin: 2rem 0;
+}
+
+.footer_input {
+  text-align: center;
+  width: 100%;
+  border-radius: 10px;
+  height: 40px;
+  color: #000;
+  font-size: 0.75rem;
+  letter-spacing: 4px;
+}
+
+.footer_subscribe_box {
+  text-align: right;
+  margin-left: 20%;
+  margin-right: 2%;
+}
+
+.button {
+  margin-top: 1rem;
+  border: 1px solid black;
+  border-radius: 7px;
+  background: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  transition: 0.6s;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer_button {
+  color: black;
+  letter-spacing: 4px;
+}
+
+.footer_button {
+  color: #fff;
+}
+
+.footer_button:hover {
+  color: black;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: black;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+.footer_button::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.footer_button::before {
+  height: 180%;
+}
+
+.footer_button:hover::before {
+  height: 0%;
+}
+
+.footer_social_box {
+  text-align: center;
+}
+
+.social_name {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.footer_social_box .row .col-lg-4 {
+  cursor: pointer;
+}
+
+.footer_social_image {
+  width: 1.5rem;
+}
+
+@media screen and (max-width: 412px) {
+    .footer_social_box .row .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .footer_subscribe_box {
+        text-align: right;
+        margin-left: 0;
+        margin-right: 0;
+      }
+}

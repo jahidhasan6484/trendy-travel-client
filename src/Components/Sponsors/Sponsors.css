@@ -1,0 +1,7 @@
+.sponsors_image {
+  cursor: pointer;
+}
+
+.sponsors_image:hover {
+  opacity: 70%;
+}
