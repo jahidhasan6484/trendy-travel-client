@@ -1,0 +1,39 @@
+.destinations_card {
+  text-align: center;
+  cursor: pointer;
+}
+
+.destinations_image {
+  height: 400px;
+  width: 100%;
+}
+
+.destinations_card:hover {
+  opacity: 0.8;
+}
+
+.destinations_details {
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+.destinations_name {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+
+.destinations_feature {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.9rem;
+}
+
+.destinations_type {
+    text-transform: uppercase;
+    color: #b8b6b6;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+}

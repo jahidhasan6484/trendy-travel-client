@@ -15,31 +15,29 @@ import sponsors9 from '../../img/sponsors/sponsors9.png';
 
 const sponsors = () => {
     var settings = {
-        dots: false,
         infinite: true,
-        slidesToShow: 8,
+        speed: 500,
+        slidesToShow: 6,
         slidesToScroll: 1,
-        initialSlide: 0,
+        swipeToSlide: true,
         autoplay: true,
-        autoplaySpeed: 4000,
-        slide: 'div',
-        cssEase: 'linear',
-        responsive: [
-            {
-                breakpoint: 769,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 1,
-                }
-            },
-            {
-                breakpoint: 411,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
-                }
+        arrows: false,
+        dots: false,
+
+        responsive: [{
+            breakpoint: 769,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1
             }
-        ]
+        },
+        {
+            breakpoint: 411,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        }]
     };
     return (
         <div className="section_margin">

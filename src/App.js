@@ -14,6 +14,7 @@ import Types from "./Components/Types/Types";
 import Essential from "./Components/Essential/Essential";
 import Sponsors from "./Components/Sponsors/Sponsors";
 import Footer from "./Components/Footer/Footer";
+import Destinations from "./Components/Destinations/Destinations";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Header />
       <Slider />
       <Types />
+      <Destinations />
       <Essential />
       <Sponsors />
       <Footer />
