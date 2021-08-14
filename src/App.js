@@ -10,6 +10,7 @@ import Header from "./Components/Header/Header";
 import Slider from "./Components/Slider/Slider";
 import Types from "./Components/Types/Types";
 import Essential from "./Components/Essential/Essential";
+import Sponsore from "./Components/Sponsore/Sponsore";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Slider />
       <Types />
       <Essential />
+      <Sponsore />
     </Router>
   );
 }
