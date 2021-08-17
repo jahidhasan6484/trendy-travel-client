@@ -3,7 +3,7 @@
 }
 
 @media screen and (min-width: 767px) {
-    .brown .section_padding .container .row .col-lg-2 {
+    .brown .section_padding .container .essential .col-lg-2 {
         width: 20%;
     }
 }
@@ -19,13 +19,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .brown .section_padding .container .row .col-lg-2 {
+    .brown .section_padding .container .essential .col-lg-2 {
         width: 50%;
     }
 }
 
 @media screen and (max-width: 412px) {
-    .brown .section_padding .container .row .col-lg-2 {
+    .brown .section_padding .container .essential .col-lg-2 {
         width: 100%;
     }
 }

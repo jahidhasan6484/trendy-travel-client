@@ -1,0 +1,24 @@
+.col-lg-2 {
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.guide_image {
+    transition: 0.3s;
+}
+
+.guide_price{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    opacity: 0;
+    transition: 0.9s;
+}
+
+.col-lg-2:hover  .guide_price {
+    opacity: 1;
+}
+
+.col-lg-2:hover .guide_image {
+    transform: translate(0, -10px);
+} 

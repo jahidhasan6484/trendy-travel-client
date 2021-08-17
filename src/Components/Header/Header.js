@@ -12,7 +12,7 @@ const Header = () => {
         <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container">
                 <div className="logo">
-                    <p className="navbar-brand" href="#">TrendyTravel</p>
+                    <Link to="/" className="navbar-brand" href="#">TrendyTravel</Link>
                     <p className="text-center navbar_subtitle">never ending footsteps</p>
                 </div>
                 <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

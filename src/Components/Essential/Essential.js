@@ -13,7 +13,7 @@ const Essential = () => {
                 <div className="container">
                     <p className="title">travel essential</p>
                     <p className="sub_title">We are the Backpack Traveler, your favorite travel assistants!</p>
-                    <div class="row mt-5">
+                    <div class="row mt-5 essential">
                         <div class="col-lg-2 col-md-6 col-sm-6">
                             <img src={bag} alt="bag" className="essential_image"></img>
                         </div>

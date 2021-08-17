@@ -8,18 +8,17 @@
 
 .navbar-brand {
   font-size: 2.5rem;
-  font-family: "Pacifico", cursive;
+  font-family: "Pacifico", cursive !important;
 }
 
 .navbar_subtitle {
+  margin-top: 0.5rem;
   text-transform: uppercase;
   font-size: 0.5rem;
-  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.2rem;
 }
 
 .navbar-nav > a {
-  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 0.8rem;
   font-weight: 550;

@@ -1,0 +1,11 @@
+@media screen and (max-width: 769px) {
+    .map_size{
+        height: 500px;
+    }
+  }
+  
+  @media screen and (max-width: 412px) {
+    .map_size{
+        height: 400px;
+    }
+  }

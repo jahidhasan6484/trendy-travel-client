@@ -18,7 +18,7 @@
 }
 
 .destinations_name {
-  font-family: "Shadows Into Light", cursive;
+  font-family: "Shadows Into Light", cursive !important;
   font-size: 1.5rem;
   font-weight: 800;
   text-transform: capitalize;
